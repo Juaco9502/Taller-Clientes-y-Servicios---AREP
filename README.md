@@ -56,20 +56,23 @@ This workshop presents different challenges that will help you explore the conce
 
 ![Design2](img/diagramaDeClases2.JPG)
 
-### EchoClient
+## EchoClient
 
-ejecutaServicio --> run the service.
+### ejecutaServicio
+* Run the service.
 
-echo --> echo server implementation
+### echo
+* echo server implementation
 
-### EchoServer (Interface)
+### EchoServer 
+* (Interface)
 
 
 # START
 
 Copy the project through git clone in any direction to start working:
 ```
-https://github.com/Juaco9502/Taller-Clientes-y-Servicios---AREP.git
+git clone https://github.com/Juaco9502/Taller-Clientes-y-Servicios---AREP.git
 ```
 
 ## PRE-REQUISITES
@@ -132,7 +135,7 @@ java -cp target/TallerClientesServicios-1.0-SNAPSHOT.jar co.edu.escuelaing.arep.
 ```
 
 
-Request the numberd
+Request the number:
 ```
 java -cp target/TallerClientesServicios-1.0-SNAPSHOT.jar co.edu.escuelaing.arep.taller3.ejercicio3.EchoClient
 
