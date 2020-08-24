@@ -13,29 +13,42 @@ This workshop presents different challenges that will help you explore the conce
 
 ## DataManager
 
-readResource -->     * @param direction Name of the file, without path.
-    		     * @return file, html file.
+### readResource
 
-readImage -->        * @param direction name of the image that you need to read.
-    		     * @return finalData, image in byte array.
+* @param direction Name of the file, without path.
+* @return file, html file.
 
-sendResource -->     * @param direction name of the resource that server needs to send.
-		     * @param client Client Socket to know where to send the resource.
+### readImage
+     
+* @param direction name of the image that you need to read.
+* @return finalData, image in byte array.
+
+### sendResource
+
+* @param direction name of the resource that server needs to send.
+* @param client Client Socket to know where to send the resource.
 
 ## RequestHandler
 
-RequestHandler -->   * @param socket this is the socket that the RequestHandler needs to review request.
-    		     * @return finalResource the name of the file that client needs.
+### RequestHandler
 
-getRequest --> 	     * @return name of the request made by the client throught GET petitions.
+* @param socket this is the socket that the RequestHandler needs to review request.
+* @return finalResource the name of the file that client needs.
 
+### getRequest
+
+* @return name of the request made by the client throught GET petitions.
 
 ## SocketConnection
 
-getServerConnection -->  * @return socket server
+### getServerConnection 
 
-getClientConnection -->  * @param serverSocket he client will connect to this server. 
-    			 * @return clientSocket clientSocket Socket del cliente.
+* @return socket server
+
+### getClientConnection 
+
+* @param serverSocket he client will connect to this server. 
+* @return clientSocket clientSocket Socket del cliente.
 
 
 
