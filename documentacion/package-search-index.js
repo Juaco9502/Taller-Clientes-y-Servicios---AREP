@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"co.edu.escuelaing.arep.taller3.ejercicio1"},{"l":"co.edu.escuelaing.arep.taller3.ejercicio2"},{"l":"co.edu.escuelaing.arep.taller3.ejercicio3"},{"l":"co.edu.escuelaing.arep.taller3.reto1"},{"l":"co.edu.escuelaing.arep.taller3.reto2"}]
